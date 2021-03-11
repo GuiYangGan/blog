@@ -7,6 +7,7 @@ module.exports = {
     ["meta", { name: "description", content: "技术文章" }]
   ],
   themeConfig: {
+    sidebar: false,
     lastUpdated: 'Last Updated',
     repo: 'https://github.com/GuiYangGan/blog',
     locales: {
