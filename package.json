@@ -1,0 +1,14 @@
+{
+  "name": "vuepress-starter",
+  "version": "0.0.1",
+  "description": "个人笔记",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^2.0.0-alpha.26"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
