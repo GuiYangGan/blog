@@ -1,14 +1,32 @@
   export const themeData = {
   "lastUpdated": "Last Updated",
+  "repo": "https://github.com/GuiYangGan/blog",
   "locales": {
     "/": {
+      "label": "简体中文",
+      "selectText": "选择语言",
+      "serviceWorker": {
+        "updatePopup": {
+          "message": "发现新内容可用",
+          "buttonText": "刷新"
+        }
+      },
+      "navbar": [
+        {
+          "text": "首页",
+          "link": "/"
+        },
+        {
+          "text": "关于我",
+          "link": "https://github.com/GuiYangGan"
+        }
+      ],
       "selectLanguageName": "English",
       "danger": "WARNING"
     }
   },
   "navbar": [],
   "logo": null,
-  "repo": null,
   "selectLanguageText": "Languages",
   "selectLanguageAriaLabel": "Select language",
   "sidebar": "auto",

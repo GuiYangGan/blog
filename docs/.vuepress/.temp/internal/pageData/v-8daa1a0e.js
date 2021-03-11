@@ -314,5 +314,19 @@ export const data = {
     }
   ],
   "filePathRelative": "README.md",
-  "git": {}
+  "git": {
+    "updatedTime": 1615454213000,
+    "contributors": [
+      {
+        "name": "GanGuiYang",
+        "email": "150938420@qq.com",
+        "commits": 1
+      }
+    ]
+  }
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  __VUE_HMR_RUNTIME__.updatePageData(data)
 }
