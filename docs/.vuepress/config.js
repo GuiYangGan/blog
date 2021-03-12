@@ -6,9 +6,15 @@ module.exports = {
   head: [
     ["meta", { name: "description", content: "技术文章" }]
   ],
+  plugins: [
+    ['@vuepress/search', {
+      searchMaxSuggestions: 10
+    }]
+  ],
   themeConfig: {
-    lastUpdated: 'Last Updated',
+    lastUpdated: '最后更新时间',
     repo: 'https://github.com/GuiYangGan/blog',
+    repoLabel: 'GitHub',
     locales: {
       '/': {
         label: '简体中文',
@@ -20,10 +26,17 @@ module.exports = {
           }
         },
         navbar: [
-          { text: '首页', link: '/' },
+          { text: '知识点', link: '/main/' },
           { text: '关于我', link: 'https://github.com/GuiYangGan' }
         ]
       }
+    },
+    sidebar: {
+      '/main/': [
+        'html.md',
+        'css.md',
+        'js.md'
+      ]
     }
   }
 }
