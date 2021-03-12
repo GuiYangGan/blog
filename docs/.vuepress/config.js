@@ -1,13 +1,12 @@
 module.exports = {
   base: '/blog/',
   title: 'GanGuiyang个人网站',
-  description: 'GanGuiyang 的个人网站',
+  description: '个人网站，只是点整理、算法题笔记。。。',
   serviceWorker: true,
   head: [
     ["meta", { name: "description", content: "技术文章" }]
   ],
   themeConfig: {
-    sidebar: false,
     lastUpdated: 'Last Updated',
     repo: 'https://github.com/GuiYangGan/blog',
     locales: {

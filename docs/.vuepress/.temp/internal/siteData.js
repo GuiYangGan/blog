@@ -2,7 +2,7 @@ export const siteData = {
   "base": "/blog/",
   "lang": "en-US",
   "title": "GanGuiyang个人网站",
-  "description": "GanGuiyang 的个人网站",
+  "description": "个人网站，只是点整理、算法题笔记。。。",
   "head": [
     [
       "meta",

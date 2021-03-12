@@ -1,5 +1,4 @@
   export const themeData = {
-  "sidebar": false,
   "lastUpdated": "Last Updated",
   "repo": "https://github.com/GuiYangGan/blog",
   "locales": {
@@ -30,6 +29,7 @@
   "logo": null,
   "selectLanguageText": "Languages",
   "selectLanguageAriaLabel": "Select language",
+  "sidebar": "auto",
   "editLink": true,
   "editLinkText": "Edit this page",
   "lastUpdatedText": "Last Updated",
