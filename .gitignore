@@ -1,4 +1,5 @@
 node_modules
-**/.temp
-**/.cache
 yarn.lock
+
+.temp
+.cache
